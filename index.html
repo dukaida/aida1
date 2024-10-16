@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con bordes y colores diferenciados</title>
+    <link rel="stylesheet" href="index.css"> <!-- Enlace al archivo CSS externo -->
+</head>
+<body>
+
+    <header>
+        <h1>Cinelandia</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Pasión por el Cine</a></li>
+                <li><a href="#sobre-nosotros">Novedades</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <article>
+                <h2>Cinéfilos al ataque !!!</h2>
+                <p>Nuestra pasión por el cine se derrama, no tiene fronteras.</p>
+                <p>Ayúdanos a expandirlas</p>
+                <br>
+                <h3 style="color:red;">AÑADIR BREVE HISTORIA VISUAL DE LA INDUSTRIA</h3>
+                <h3 style="color:red;">AÑADIR BREVE HISTORIA VISUAL DEL CINE ARGENTINO</h3>
+                <h3 style="color:red;">AÑADIR LAS VENTAJAS DE VER CINE</h3>
+            </article>
+        </section>
+
+        <section id="sobre-nosotros">
+            <h2>Lo último de la industria</h2>
+            <p>Si no está en este sitio es porque no sucedió ...</p>
+            <br>
+            <h3 style="color:red;">AÑADIR NOVEDADES</h3>
+            <h3 style="color:red;">AÑADIR ESTRENOS</h3>
+            <h3 style="color:red;">TECNOLOGIA</h3>
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <article>
+                <h3>Vota tu película favorita</h3>
+                <p>Eso nos ayudará a alimentar a nuestra AI y tener nuestro propio ranking argento.</p>
+                <br>
+                <h3 style="color:red;">AÑADIR SISTEMA JAVASCRIPT:</h3>
+                <ul style="color:red;">
+                    <li>REGISTRA VOTOS POR PELICULA</li>
+                    <li>PROMEDIA</li>
+                    <li>ESTABLECE RANKING</li>
+                </ul>
+            </article>
+            <article>
+                <h3>AICINE</h3>
+                <p>Próximamente ... completando una serie de parámetros recomendamos tu película a tu medida</p>
+                <ul>
+                    <li>1. Género (Acción, Comedia, Drama)</li>
+                    <li>2. Actores/Actrices Favoritos</li>
+                    <li>3. Director</li>
+                    <li>4. Año de Filmación</li>
+                    <li>5. Tipo de Historia/Temática (Romántica, De Suspenso, Basada en Hechos Reales)</li>
+                    <li>6. Duración de la Película</li>
+                    <li>7. Idioma y País de Producción</li>
+                    <li>8. Puntuaciones/Reseñas</li>
+                    <li>9. Disponible en Plataformas de Streaming</li>
+                    <li>10. Premios y Reconocimientos (Oscar, Globos de Oro)</li>
+                    <li>11. Tipo de Público (Familiar, Adulto, Juvenil)</li>
+                    <li>12. Estilo Visual o Técnico (Animación, Blanco y Negro, Documental)</li>
+                </ul>
+                <p>Cuanto más precisa sea la información que nos brindes, más acertada sera nuestra recomendación</p>
+                <h3 style="color:red;">AÑADIR SISTEMA JAVASCRIPT DE RECOMENDACIÓN DE PELÍCULAS<h3>
+            </article>
+            <article>
+                <h3>EnjoyMovies</h3>
+                <p>Animamos tu Reunión Empresarial - de Amigos - Familiar | Evento | Fiesta.</p>
+                <p>Date una vuelta por nuestro Showroom sito en Avda Asamblea 13, donde podrás apreciar lo último en entretenimientos referidos al sector.</p>
+                <br>
+                <div class="map-container">
+                    <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.77505608962!2d-58.43996642459387!3d-34.635124372943125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbb51de5b883%3A0x257a7278617e67d5!2sAv.%20Asamblea%20900%2C%20C1424%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1728828559040!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contactForm" action="https://formspree.io/f/xzzbpwrz" method="POST">
+                <label>
+                    Tu correo electrónico:
+                    <input type="email" name="email" required>
+                </label>
+                <br><br>
+                <label>
+                    Tu mensaje:
+                    <textarea name="message" required></textarea>
+                </label>
+                <br><br>
+                <button type="submit">Enviar</button>
+                <button type="button" onclick="limpiarContacto()">Limpiar</button> <!-- Nuevo botón para limpiar -->
+            </form>
+            <h3 style="color:red;">AÑADIR FORMULARIO DE CONTACTO:</h3>
+        </section>
+
+        <aside>
+            <h2>Próximamente</h2>
+            <article>
+            <p>Llevamos el cine a tu barrio, sociedad de fomento, club social ...</p>
+            <p>Contáctanos y harás feliz a uno de nuestros ejecutivos.</p>
+            <p>Estamos ansiosos de llevar el cine a todas partes y de hacer feliz a la gente.</p>
+            </article>
+            <article>
+            <p>Querés ser crítico amateur de cine ... no te desesperes</p>
+            <p>Muy pronto abriremos nuestro primer curso presencial en nuestra sede de Avda Asamblea 13.</p>
+            <p>Donde participaran afamados críticos argentinos.</p>
+         </article>
+            <article>
+            <p>No pertenecés a ningún cine club?</p>
+            <p>Pronto tendrás la posibilidad de asociarte al mejor.</p>
+            </article>
+            <h3 style="color:red;">CONVERTIRLO EN UN ASIDE VERTICAL</h3>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cinelandia. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function limpiarContacto() {
+            document.querySelector('input[name="email"]').value = ''; // Limpiar input de email
+            document.querySelector('textarea[name="message"]').value = ''; // Limpiar textarea
+        }
+    </script>
+</body>
+</html>

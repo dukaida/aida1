@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header y Navegación */
+header {
+    background-color: #ffebcc;
+    border: 4px solid #ff9900;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main y Secciones */
+main {
+    padding: 20px;
+    background-color: #e0f7fa;
+    border: 4px solid #00acc1;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #f1f8e9;
+    border: 2px solid #7cb342;
+    padding: 15px;
+}
+
+article {
+    background-color: #fce4ec;
+    border: 2px solid #ec407a;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/* Aside */
+aside {
+    background-color: #ffe082;
+    border: 2px solid #000; /* Color del borde negro */
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #e1bee7;
+    border: 4px solid #ab47bc;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+/* Estilos para centrar el iframe */
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Añade un margen superior e inferior */
+}
+
+.google-maps {
+    width: 100%;
+    max-width: 600px; /* Limita el ancho máximo del iframe */
+    height: 400px;    /* Ajusta la altura del iframe */
+    border: 0;
+    border-radius: 10px; /* Añade bordes redondeados para un mejor diseño */
+}
